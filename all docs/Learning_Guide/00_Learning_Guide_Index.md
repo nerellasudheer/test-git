@@ -6,7 +6,25 @@
 
 # Welcome!
 
-This folder contains comprehensive guides to help you learn programming tools from absolute zero. Each guide is written in a beginner-friendly way with real-world scenarios, visual diagrams, and step-by-step commands.
+This folder contains comprehensive guides to help you learn programming tools from absolute zero to advanced. Each guide is written in a beginner-friendly way with real-world scenarios, visual diagrams, and step-by-step commands.
+
+---
+
+# Quick Start - Where to Begin
+
+## Recommended: Use the Quick Reference Guides
+
+The **Quick_Reference/** folder contains **complete, well-structured guides** that cover everything from basic to advanced. These are the primary learning resources:
+
+| Priority | File | Description |
+|----------|------|-------------|
+| ⭐ **Start Here** | [00_All_Commands_Quick_Reference.md](./Quick_Reference/00_All_Commands_Quick_Reference.md) | **Master cheat sheet** - Everything in one place |
+| 1 | [04_VSCode_Shortcuts.md](./Quick_Reference/04_VSCode_Shortcuts.md) | VS Code editor - Complete guide |
+| 2 | [02_PowerShell_Commands.md](./Quick_Reference/02_PowerShell_Commands.md) | PowerShell (Recommended shell) - Complete guide |
+| 3 | [06_Python_Virtual_Environment.md](./Quick_Reference/06_Python_Virtual_Environment.md) | Python virtual environments - Complete guide |
+| 4 | [03_Git_GitHub_Commands.md](./Quick_Reference/03_Git_GitHub_Commands.md) | Git version control - Complete guide |
+| 5 | [05_Environment_Variables.md](./Quick_Reference/05_Environment_Variables.md) | Environment variables & .env files - Complete guide |
+| 6 | [01_CMD_Commands.md](./Quick_Reference/01_CMD_Commands.md) | CMD (if needed) - Complete guide |
 
 ---
 
@@ -17,179 +35,180 @@ Learning_Guide/
 │
 ├── 00_Learning_Guide_Index.md                    ← YOU ARE HERE
 │
-├── DETAILED GUIDES (Learn in depth)
-│   ├── 01_Terminal_CMD_PowerShell_Complete_Guide.md  ← Terminal, CMD, PowerShell - everything!
-│   ├── 02_VSCode_Complete_Guide.md                   ← VS Code shortcuts, settings, extensions
-│   ├── 03_Git_Complete_Guide.md                      ← Git & GitHub - beginner to advanced
-│   └── 04_Virtual_Environment_Guide.md               ← Python venv + environment variables
-│
-├── WEB & API (Reference)
-│   └── 14_Auth_JWT_OAuth_API_Tokens.md               ← Auth, JWT, OAuth, Tokens
-│
-└── Quick_Reference/ (Quick lookup)
-    ├── 00_All_Commands_Quick_Reference.md            ← ALL commands in one place!
-    ├── 01_CMD_Commands.md                            ← CMD quick reference
-    ├── 02_PowerShell_Commands.md                     ← PowerShell quick reference
-    ├── 03_Git_GitHub_Commands.md                     ← Git/GitHub quick reference
-    ├── 04_VSCode_Shortcuts.md                        ← VS Code shortcuts quick reference
-    ├── 05_Environment_Variables.md                   ← Env vars quick reference
-    └── 06_Python_Virtual_Environment.md              ← Python venv quick reference
+└── Quick_Reference/                              ← Complete Guides
+    ├── 00_All_Commands_Quick_Reference.md        ← Master cheat sheet
+    ├── 01_CMD_Commands.md                        ← CMD complete guide
+    ├── 02_PowerShell_Commands.md                 ← PowerShell complete guide
+    ├── 03_Git_GitHub_Commands.md                 ← Git complete guide
+    ├── 04_VSCode_Shortcuts.md                    ← VS Code complete guide
+    ├── 05_Environment_Variables.md               ← Env vars complete guide
+    └── 06_Python_Virtual_Environment.md          ← Venv complete guide
 ```
 
 ---
 
-# File Types
+# Learning Path by Level
 
-| Type | Purpose | When to Use |
-|------|---------|-------------|
-| **Detailed Guides** | Comprehensive learning materials with explanations, diagrams, examples | Learning a topic for the first time, understanding concepts deeply |
-| **Quick Reference** | Short, concise command listings | Quick lookup while working, refreshing memory |
-| **Web & API** | Specialized topic reference | When working with authentication and APIs |
+## Beginner Path
 
----
+### Week 1: Environment Setup
+1. **VS Code** - [04_VSCode_Shortcuts.md](./Quick_Reference/04_VSCode_Shortcuts.md)
+   - Learn the interface
+   - Master essential shortcuts
+   - Install extensions
 
-# Reading Order (Recommended)
+2. **PowerShell Basics** - [02_PowerShell_Commands.md](./Quick_Reference/02_PowerShell_Commands.md)
+   - Navigation (cd, pwd, ls)
+   - File operations (create, delete, copy)
+   - Understanding paths
 
-## Phase 1: Terminal & Editor Basics
-1. [01_Terminal_CMD_PowerShell_Complete_Guide.md](./01_Terminal_CMD_PowerShell_Complete_Guide.md)
-   - What is a terminal, shell
-   - CMD vs PowerShell vs Git Bash
-   - Navigation commands (cd, ls, pwd)
-   - File operations (create, delete, copy, move)
+### Week 2: Python Setup
+3. **Virtual Environments** - [06_Python_Virtual_Environment.md](./Quick_Reference/06_Python_Virtual_Environment.md)
+   - Create virtual environments
+   - Activate/deactivate
+   - Install packages with pip
+   - Use requirements.txt
 
-2. [02_VSCode_Complete_Guide.md](./02_VSCode_Complete_Guide.md)
-   - VS Code interface
-   - Essential keyboard shortcuts
-   - Multiple cursors, Command Palette
-   - Extensions and settings
+### Week 3: Version Control
+4. **Git Fundamentals** - [03_Git_GitHub_Commands.md](./Quick_Reference/03_Git_GitHub_Commands.md)
+   - git init, add, commit
+   - Create and switch branches
+   - Push to GitHub
+   - Pull from remote
 
-## Phase 2: Python Environment
-3. [04_Virtual_Environment_Guide.md](./04_Virtual_Environment_Guide.md)
-   - Creating virtual environments
-   - Activating/deactivating
-   - pip and requirements.txt
-   - Environment variables and .env files
-
-## Phase 3: Git & GitHub
-4. [03_Git_Complete_Guide.md](./03_Git_Complete_Guide.md)
-   - What is Git, why use it
-   - Repository, commits, branches
-   - Daily workflow (add, commit, push)
-   - GitHub operations (clone, push, pull)
-   - Undoing changes (reset, revert)
-   - Advanced commands (stash, reflog, cherry-pick)
-
-## Phase 4: Web & API (When Needed)
-5. [14_Auth_JWT_OAuth_API_Tokens.md](./14_Auth_JWT_OAuth_API_Tokens.md)
-   - Authentication vs Authorization
-   - API Keys, JWT, OAuth 2.0
-   - Bearer Tokens, Refresh Tokens
+### Week 4: Professional Practices
+5. **Environment Variables** - [05_Environment_Variables.md](./Quick_Reference/05_Environment_Variables.md)
+   - Use .env files
+   - Keep secrets safe
+   - Configure different environments
 
 ---
 
-# Quick Jump - By Topic
+## Intermediate Path
 
-## "I want to learn about..."
+After completing the beginner path, focus on:
 
-### Terminal & Command Line
-| Topic | Go to |
-|-------|-------|
-| What is a terminal? | [01_Terminal_CMD_PowerShell_Complete_Guide.md](./01_Terminal_CMD_PowerShell_Complete_Guide.md) |
-| CMD vs PowerShell vs Git Bash | [01_Terminal_CMD_PowerShell_Complete_Guide.md](./01_Terminal_CMD_PowerShell_Complete_Guide.md) |
-| How to navigate folders (cd, ls, pwd) | [01_Terminal_CMD_PowerShell_Complete_Guide.md](./01_Terminal_CMD_PowerShell_Complete_Guide.md) |
-| How to create/delete/copy files | [01_Terminal_CMD_PowerShell_Complete_Guide.md](./01_Terminal_CMD_PowerShell_Complete_Guide.md) |
-| Quick command lookup | [Quick_Reference/01_CMD_Commands.md](./Quick_Reference/01_CMD_Commands.md) or [Quick_Reference/02_PowerShell_Commands.md](./Quick_Reference/02_PowerShell_Commands.md) |
+### Git Advanced
+- Branching strategies
+- Merge vs Rebase
+- Resolving conflicts
+- Cherry-pick and stash
 
-### VS Code
-| Topic | Go to |
-|-------|-------|
-| VS Code interface overview | [02_VSCode_Complete_Guide.md](./02_VSCode_Complete_Guide.md) |
-| Keyboard shortcuts | [02_VSCode_Complete_Guide.md](./02_VSCode_Complete_Guide.md) |
-| Multiple cursors | [02_VSCode_Complete_Guide.md](./02_VSCode_Complete_Guide.md) |
-| Extensions and settings | [02_VSCode_Complete_Guide.md](./02_VSCode_Complete_Guide.md) |
-| Quick shortcuts lookup | [Quick_Reference/04_VSCode_Shortcuts.md](./Quick_Reference/04_VSCode_Shortcuts.md) |
+### Shell Scripting
+- PowerShell scripting basics
+- Automating tasks
+- Batch operations
+
+### VS Code Power User
+- Multiple cursors mastery
+- Custom snippets
+- Debugging setup
+
+---
+
+# Quick Reference by Topic
+
+## "I need to..."
+
+### Terminal & Navigation
+| Task | Quick Reference |
+|------|-----------------|
+| Navigate folders | [02_PowerShell_Commands.md](./Quick_Reference/02_PowerShell_Commands.md) |
+| Create/delete files | [02_PowerShell_Commands.md](./Quick_Reference/02_PowerShell_Commands.md) |
+| CMD specific commands | [01_CMD_Commands.md](./Quick_Reference/01_CMD_Commands.md) |
+| Compare shells | [00_All_Commands_Quick_Reference.md](./Quick_Reference/00_All_Commands_Quick_Reference.md) |
 
 ### Git & GitHub
-| Topic | Go to |
-|-------|-------|
-| What is Git? Git vs GitHub? | [03_Git_Complete_Guide.md](./03_Git_Complete_Guide.md) |
-| git init, add, commit | [03_Git_Complete_Guide.md](./03_Git_Complete_Guide.md) |
-| Branches (create, switch, merge) | [03_Git_Complete_Guide.md](./03_Git_Complete_Guide.md) |
-| Push/Pull/Clone from GitHub | [03_Git_Complete_Guide.md](./03_Git_Complete_Guide.md) |
-| Undo changes (reset, revert) | [03_Git_Complete_Guide.md](./03_Git_Complete_Guide.md) |
-| Stash, reflog, cherry-pick | [03_Git_Complete_Guide.md](./03_Git_Complete_Guide.md) |
-| .gitignore patterns | [03_Git_Complete_Guide.md](./03_Git_Complete_Guide.md) |
-| Quick command lookup | [Quick_Reference/03_Git_GitHub_Commands.md](./Quick_Reference/03_Git_GitHub_Commands.md) |
+| Task | Quick Reference |
+|------|-----------------|
+| Initialize repo | [03_Git_GitHub_Commands.md](./Quick_Reference/03_Git_GitHub_Commands.md) |
+| Commit changes | [03_Git_GitHub_Commands.md](./Quick_Reference/03_Git_GitHub_Commands.md) |
+| Create branches | [03_Git_GitHub_Commands.md](./Quick_Reference/03_Git_GitHub_Commands.md) |
+| Push to GitHub | [03_Git_GitHub_Commands.md](./Quick_Reference/03_Git_GitHub_Commands.md) |
+| Undo mistakes | [03_Git_GitHub_Commands.md](./Quick_Reference/03_Git_GitHub_Commands.md) |
+| .gitignore setup | [03_Git_GitHub_Commands.md](./Quick_Reference/03_Git_GitHub_Commands.md) |
 
-### Python & Virtual Environments
-| Topic | Go to |
-|-------|-------|
-| What is a virtual environment? | [04_Virtual_Environment_Guide.md](./04_Virtual_Environment_Guide.md) |
-| Creating/activating venv | [04_Virtual_Environment_Guide.md](./04_Virtual_Environment_Guide.md) |
-| pip install, requirements.txt | [04_Virtual_Environment_Guide.md](./04_Virtual_Environment_Guide.md) |
-| Environment variables | [04_Virtual_Environment_Guide.md](./04_Virtual_Environment_Guide.md) |
-| .env files in Python | [04_Virtual_Environment_Guide.md](./04_Virtual_Environment_Guide.md) |
-| Quick command lookup | [Quick_Reference/06_Python_Virtual_Environment.md](./Quick_Reference/06_Python_Virtual_Environment.md) |
+### VS Code
+| Task | Quick Reference |
+|------|-----------------|
+| Keyboard shortcuts | [04_VSCode_Shortcuts.md](./Quick_Reference/04_VSCode_Shortcuts.md) |
+| Multi-cursor editing | [04_VSCode_Shortcuts.md](./Quick_Reference/04_VSCode_Shortcuts.md) |
+| Extensions | [04_VSCode_Shortcuts.md](./Quick_Reference/04_VSCode_Shortcuts.md) |
+| Settings | [04_VSCode_Shortcuts.md](./Quick_Reference/04_VSCode_Shortcuts.md) |
 
-### Web & API (Authentication)
-| Topic | Go to |
-|-------|-------|
-| Authentication vs Authorization | [14_Auth_JWT_OAuth_API_Tokens.md](./14_Auth_JWT_OAuth_API_Tokens.md) |
-| API Keys | [14_Auth_JWT_OAuth_API_Tokens.md](./14_Auth_JWT_OAuth_API_Tokens.md) |
-| JWT Tokens | [14_Auth_JWT_OAuth_API_Tokens.md](./14_Auth_JWT_OAuth_API_Tokens.md) |
-| OAuth 2.0 | [14_Auth_JWT_OAuth_API_Tokens.md](./14_Auth_JWT_OAuth_API_Tokens.md) |
-| Bearer/Refresh Tokens | [14_Auth_JWT_OAuth_API_Tokens.md](./14_Auth_JWT_OAuth_API_Tokens.md) |
+### Python Development
+| Task | Quick Reference |
+|------|-----------------|
+| Create virtual env | [06_Python_Virtual_Environment.md](./Quick_Reference/06_Python_Virtual_Environment.md) |
+| Install packages | [06_Python_Virtual_Environment.md](./Quick_Reference/06_Python_Virtual_Environment.md) |
+| requirements.txt | [06_Python_Virtual_Environment.md](./Quick_Reference/06_Python_Virtual_Environment.md) |
+| .env files | [05_Environment_Variables.md](./Quick_Reference/05_Environment_Variables.md) |
+| Keep secrets safe | [05_Environment_Variables.md](./Quick_Reference/05_Environment_Variables.md) |
 
 ---
 
 # What Each Guide Contains
 
-| Guide | Topics Covered |
-|-------|----------------|
-| **01_Terminal_CMD_PowerShell_Complete_Guide** | What is terminal, Shells explained, CMD vs PowerShell vs Git Bash, Navigation (cd, ls, pwd), File operations (mkdir, rm, cp, mv), Path symbols, Common errors |
-| **02_VSCode_Complete_Guide** | Interface overview, Activity Bar, All keyboard shortcuts, Multiple cursors, Command Palette, Settings, Extensions, Practical scenarios |
-| **03_Git_Complete_Guide** | What is Git/GitHub, Repository concepts, Commits, Branches (create/merge/delete), Daily workflow, GitHub operations (clone/push/pull), Undoing changes (reset/revert), Stash, reflog, cherry-pick, .gitignore |
-| **04_Virtual_Environment_Guide** | Virtual environments explained, Creating/activating venv, pip commands, requirements.txt, Environment variables (System/User/Process), .env files, python-dotenv, Best practices |
-| **14_Auth_JWT_OAuth_API_Tokens** | Authentication vs Authorization, API Keys, JWT structure, OAuth 2.0 flows, Bearer tokens, Access/Refresh tokens, Best practices |
+## Quick Reference Guides (Complete)
+
+| Guide | Content |
+|-------|---------|
+| **00_All_Commands** | All commands in one place, workflows, troubleshooting, shell comparison |
+| **01_CMD_Commands** | Navigation, file ops, system commands, path symbols, tips |
+| **02_PowerShell_Commands** | Full command reference, aliases, environment vars, practical examples |
+| **03_Git_GitHub_Commands** | Setup, daily workflow, branching, history, undo, stash, remote, .gitignore, troubleshooting |
+| **04_VSCode_Shortcuts** | Interface, shortcuts, multi-cursor, navigation, extensions, settings, scenarios |
+| **05_Environment_Variables** | Types, viewing, setting, .env files, Python usage, security, troubleshooting |
+| **06_Python_Virtual_Environment** | Creating venv, activation, pip, requirements, VS Code integration, workflows |
 
 ---
 
-# Quick Reference Files
+# New Project Quick Start
 
-The `Quick_Reference/` folder contains brief, lookup-friendly versions of all commands:
+```bash
+# 1. Create project folder
+mkdir my_project && cd my_project
 
-| File | Purpose |
-|------|---------|
-| [00_All_Commands_Quick_Reference.md](./Quick_Reference/00_All_Commands_Quick_Reference.md) | **ALL commands in one place** - Master cheat sheet |
-| [01_CMD_Commands.md](./Quick_Reference/01_CMD_Commands.md) | CMD-specific commands |
-| [02_PowerShell_Commands.md](./Quick_Reference/02_PowerShell_Commands.md) | PowerShell-specific commands |
-| [03_Git_GitHub_Commands.md](./Quick_Reference/03_Git_GitHub_Commands.md) | Git and GitHub commands |
-| [04_VSCode_Shortcuts.md](./Quick_Reference/04_VSCode_Shortcuts.md) | VS Code keyboard shortcuts |
-| [05_Environment_Variables.md](./Quick_Reference/05_Environment_Variables.md) | Environment variable commands |
-| [06_Python_Virtual_Environment.md](./Quick_Reference/06_Python_Virtual_Environment.md) | Python venv commands |
+# 2. Create virtual environment
+python -m venv venv
+
+# 3. Activate virtual environment
+.\venv\Scripts\Activate.ps1    # PowerShell
+
+# 4. Create essential files
+ni main.py, requirements.txt, .gitignore, .env.example
+
+# 5. Initialize Git
+git init
+git add .
+git commit -m "Initial commit"
+```
 
 ---
 
 # Tips for Learning
 
-1. **Start with detailed guides** - Read them when learning a new topic
-2. **Practice each command** - Type commands yourself, don't just read
-3. **Use Quick Reference** - Keep it open while working for quick lookups
-4. **Make mistakes** - It's the best way to learn
-5. **Read error messages** - They tell you what's wrong
-6. **Take breaks** - Don't overwhelm yourself
+1. **Start with Quick Reference guides** - They're comprehensive and well-organized
+2. **Keep 00_All_Commands open** - Use it as your cheat sheet while working
+3. **Practice commands** - Type them yourself, don't just read
+4. **Use Tab completion** - Saves time and prevents typos
+5. **Read error messages** - They tell you what went wrong
+6. **Learn PowerShell** - It's the default in VS Code and more powerful than CMD
+7. **Make mistakes** - It's the best way to learn
 
 ---
 
 # Notes
 
-- All guides use **PowerShell** as the default shell (VS Code on Windows)
+- All guides use **PowerShell** as the recommended shell (default in VS Code on Windows)
 - Commands that differ between shells are shown with alternatives
-- Visual diagrams (ASCII boxes) are provided for complex concepts
-- Real-world scenarios help understand practical usage
+- Each guide progresses from **basic → intermediate → advanced**
+- Real-world workflows are included for practical understanding
 
 ---
 
 **Happy Learning!**
 
-Start with: [01_Terminal_CMD_PowerShell_Complete_Guide.md](./01_Terminal_CMD_PowerShell_Complete_Guide.md)
+⭐ Start with: [00_All_Commands_Quick_Reference.md](./Quick_Reference/00_All_Commands_Quick_Reference.md)
+
+---
