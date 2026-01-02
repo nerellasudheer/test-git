@@ -1,0 +1,12 @@
+this is to connect to remote : git remote add origin https://github.com/YOUR_USERNAME/test2.git
+
+this is to clone the remote : git clone https://github.com/nerellasudheer/test-git.git
+
+git initial push : git push -u origin master
+
+Option 1: Force the merge with --allow-unrelated-histories
+
+git pull origin master --allow-unrelated-histories
+This tells Git "I know these are different histories, merge them anyway." After this, resolve any conflicts if prompted, then:
+
+git push -u origin master
