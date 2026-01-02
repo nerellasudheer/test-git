@@ -10,3 +10,11 @@ git pull origin master --allow-unrelated-histories
 This tells Git "I know these are different histories, merge them anyway." After this, resolve any conflicts if prompted, then:
 
 git push -u origin master
+
+
+Step 1: Remove the current remote
+
+git remote remove origin
+Step 2: Verify it's removed
+
+git remote -v
