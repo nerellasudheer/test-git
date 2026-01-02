@@ -390,7 +390,7 @@
 │                                                                  │
 │  EXAMPLE API KEY:                                                │
 │  ────────────────                                                │
-│  sk_test_XXXXXX          │
+│  sk_test_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX          │
 │                                                                  │
 │                                                                  │
 │  HOW IT'S USED:                                                  │
@@ -398,16 +398,16 @@
 │                                                                  │
 │  Method 1: In URL (Not recommended - visible in logs!)          │
 │  ──────────────────────────────────────────────────              │
-│  GET https://api.example.com/data?api_key=sk_test_XXXXXX...     │
+│  GET https://api.example.com/data?api_key=sk_test_XXXXX...     │
 │                                                                  │
 │  Method 2: In Header (Recommended)                               │
 │  ─────────────────────────────────                               │
 │  GET https://api.example.com/data                               │
-│  X-API-Key: sk_test_XXXXXX...                    │
+│  X-API-Key: sk_test_XXXXXXXXXXXXXXX...                    │
 │                                                                  │
 │  OR                                                              │
 │                                                                  │
-│  Authorization: ApiKey sk_test_XXXXXX...         │
+│  Authorization: ApiKey sk_test_XXXXXXXXXXXXXXX...         │
 │                                                                  │
 │                                                                  │
 │  PYTHON CODE EXAMPLE:                                            │
@@ -416,7 +416,7 @@
 │  ```python                                                       │
 │  import requests                                                 │
 │                                                                  │
-│  api_key = "sk_test_XXXXXX"                │
+│  api_key = "sk_test_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"                │
 │                                                                  │
 │  # Method 1: API key in header (RECOMMENDED)                    │
 │  headers = {                                                     │
@@ -1693,7 +1693,7 @@ if __name__ == "__main__":
 │  ──────────────────────────                                      │
 │                                                                  │
 │  ❌ BAD:                                                         │
-│  api_key = "sk_test_XXXXXX"                                │
+│  api_key = "sk_test_XXXXXXXXXXX"                                │
 │                                                                  │
 │  ✅ GOOD:                                                        │
 │  api_key = os.environ.get("API_KEY")                            │

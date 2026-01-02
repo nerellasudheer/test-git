@@ -523,7 +523,7 @@ print(f"Debug Mode: {debug}")
 
 **.env file:**
 ```env
-API_KEY=sk_test_XXXXXX
+API_KEY=sk_test_XXXXXXXXXXXX
 DB_HOST=production-server.com
 DB_PORT=5432
 DEBUG=False
