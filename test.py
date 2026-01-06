@@ -1,26 +1,24 @@
-import asyncio
-queue = asyncio.Queue()
+import threading 
+import time
+def print_message(msg, delay):
+    time.sleep(delay)
+    print(msg)
 
-async def supplier():
-    for id in range(5):
-        await asyncio.sleep(1)
-        await queue.put(id)
-        print(f"supplier added the item with id :{id}")
+    
+t1=threading.Thread(target=print_message,args=("Thread 1 running",2))
+t2=threading.Thread(target=print_message,args=("Thread 2 running",1))
 
-async def reciver():
-    while True:
-        job=await queue.get()
-        print(f"Reciver got the item of id {job}")
-        await asyncio.sleep(2)
-        print(f"Reciver processed the item of id {job}")
-        queue.task_done()
 
-async def main():
-    producer_task = asyncio.create_task(supplier())
-    consumer_task = asyncio.create_task(reciver())
+t1.start()
+print(threading.current_thread().name)
 
-    await producer_task
-    await queue.join()     # wait until all jobs are processed
-    consumer_task.cancel()
+t2.start()
+print(threading.current_thread().name)
 
-asyncio.run(main())
+t1.join()
+print(threading.current_thread().name)
+
+t2.join()
+
+
+print("Main thread finished")
