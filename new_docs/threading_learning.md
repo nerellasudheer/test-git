@@ -244,3 +244,82 @@ This concept explains:
 - Why programs exit suddenly
 
 Just say **“Continue with Daemon Threads”** and we’ll proceed exactly in the same structured way 💪
+========
+Concepts left : 
+Good question 👍
+Here is the **brief, clean list** of **what remains to be covered related to race conditions and threading safety** — **no explanations**, just the **roadmap**.
+
+---
+
+## 🧵 THREADING TOPICS STILL LEFT (BRIEF LIST)
+
+### 🔴 Around Race Conditions & Safety
+
+1. Critical Section
+2. `Lock`
+3. `RLock` (Re-entrant Lock)
+4. Deadlock
+5. Starvation
+6. Livelock
+7. Atomic operations (concept)
+
+---
+
+### 🔴 Thread Coordination & Communication
+
+8. `Queue`
+9. Producer–Consumer Pattern
+10. Condition Variables
+11. Events (`Event`)
+12. Semaphores
+
+---
+
+### 🔴 Thread Behavior & Control
+
+13. Daemon vs Non-Daemon (done, but with edge cases)
+14. Thread lifecycle states
+15. Thread interruption (limitations in Python)
+
+---
+
+### 🔴 Performance & Python Internals
+
+16. Global Interpreter Lock (GIL)
+17. CPU-bound vs I/O-bound tasks
+18. Threading vs Multiprocessing
+19. When NOT to use threading
+
+---
+
+### 🔴 Real-World & Best Practices
+
+20. Logging with threads
+21. Exception handling in threads
+22. Thread pools (`concurrent.futures.ThreadPoolExecutor`)
+23. Resource cleanup
+24. Common threading mistakes
+
+---
+
+## 🗺️ Current Position in the Map
+
+```
+Basics ✅
+Thread creation & control ✅
+Daemon threads ✅
+Race conditions 🚧 (current)
+Synchronization 🔜
+Thread communication 🔜
+Performance & GIL 🔜
+Real-world usage 🔜
+```
+
+---
+
+### 👉 Next Logical Step
+
+**Locks (`Lock`)** — fixing race conditions safely 🔐
+
+When you’re ready, say:
+**“Continue with Locks”**
