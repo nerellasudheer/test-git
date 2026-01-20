@@ -260,9 +260,13 @@ Press `q` to exit log view.
 ### Discard File Changes
 
 ```bash
-# Discard changes in working directory
+# Discard changes in specific file
 git restore file.txt
 git checkout -- file.txt    # Older syntax
+
+# Discard ALL changes in working directory
+git restore .
+git checkout -- .           # Older syntax (discard all modified files)
 
 # Unstage a file (keep changes)
 git restore --staged file.txt
@@ -335,7 +339,8 @@ git commit --amend --no-edit
 
 | Command | Description |
 |---------|-------------|
-| `git stash` | Save current work temporarily |
+| `git stash` | Save current work temporarily (tracked files only) |
+| `git stash -u` | Save work INCLUDING untracked files |
 | `git stash save "message"` | Save with description |
 | `git stash list` | List all stashes |
 | `git stash pop` | Apply and remove top stash |
