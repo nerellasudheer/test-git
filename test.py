@@ -44,4 +44,4 @@
 # # Exercise 2 :
 import threading
 import time
-lock= threading.Lock()
+lock= threading.Lock();
